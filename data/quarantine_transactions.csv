@@ -1,0 +1,223 @@
+transaction_id,order_id,customer_id,customer_email,transaction_timestamp,product_id,category,quantity,unit_price,payment_method,status,run_id,rejection_reasons
+TXN-10002,ORD-50002,,user_947@company.org,2026-07-27 17:29:23,PROD-5063,Books,6.0,458.38,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10006,ORD-50006,CUST-778,user_744@outlook.com,2026-07-27 21:04:43,PROD-6889,Books,3.0,0.0,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10013,ORD-50013,CUST-647,user_609@gmail.com,2026-08-01 08:07:56,PROD-9943,Apparel,,73.93,PayPal,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10016,ORD-50016,CUST-922,user_529@company.org,2026-07-28 08:23:45,PROD-6913,Beauty,8.0,,UPI,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10023,ORD-50023,CUST-471,user_857@outlook.com,2026-07-29 15:36:01,PROD-4350,Electronics,-4.0,400.6,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10024,ORD-50024,CUST-371,user_519gmail.com,2026-07-29 20:51:23,PROD-7068,Electronics,4.0,399.5,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_519gmail.com)
+TXN-10026,ORD-50026,CUST-952,user_760@gmail.com,2026-07-27 12:09:40,PROD-5610,Sports,-1.0,139.19,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-1.0) must be > 0
+TXN-10031,ORD-50031,CUST-398,user_657@outlook.com,2026-07-26 12:14:18,PROD-8215,Electronics,,31.61,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10037,ORD-50037,CUST-753,user_322@yahoo.com,2026-07-27 12:35:29,PROD-2107,Beauty,6.0,0.0,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10044,ORD-50044,CUST-659,user_561@outlook.com,2026-07-26 03:32:04,PROD-3971,Beauty,-1.0,93.93,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-1.0) must be > 0
+TXN-10052,ORD-50052,CUST-711,user_516@company.org,2026-07-31 10:34:48,PROD-2055,Apparel,5.0,,PayPal,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10056,ORD-50056,CUST-312,user_463@company.org,2026-07-27 12:29:48,PROD-3228,Electronics,9.0,-45.33,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (-45.33) must be > 0
+TXN-10061,ORD-50028,CUST-845,user_981@outlook.com,2026-07-27 00:16:53,PROD-6977,Sports,6.0,172.13,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50028)
+TXN-10067,ORD-50067,,user_890@outlook.com,2026-07-28 23:24:32,PROD-3707,Apparel,4.0,23.34,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10068,ORD-50068,CUST-562,user_601@yahoo.com,2026-07-30 13:58:33,PROD-4741,Books,0.0,437.42,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10072,ORD-50072,CUST-748,user_752@outlook.com,2026-07-29 22:02:15,PROD-6463,Books,0.0,246.45,PayPal,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10076,ORD-50076,,user_588@gmail.com,2026-07-26 11:43:34,PROD-8783,Books,6.0,8.03,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10077,ORD-50077,CUST-695,user_208@company.org,2026-07-30 14:59:08,PROD-3251,Sports,,334.83,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10080,ORD-50080,CUST-115,user_884@yahoo.com,2026-07-25 23:28:12,PROD-9138,Sports,-2.0,334.29,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-2.0) must be > 0
+TXN-10086,ORD-50054,CUST-460,user_910@outlook.com,2026-07-29 19:34:47,PROD-5534,Books,8.0,92.38,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50054)
+TXN-10088,ORD-50088,CUST-924,user_633@outlook.com,2026-07-27 09:42:13,PROD-3930,Apparel,-2.0,37.83,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-2.0) must be > 0
+TXN-10089,ORD-50089,CUST-267,user_723@company.org,2026-07-26 19:57:13,PROD-7577,Beauty,6.0,,UPI,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10095,ORD-50095,CUST-634,user_901@gmail,2026-08-01 06:00:31,PROD-6706,Sports,3.0,94.18,PayPal,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_901@gmail)
+TXN-10096,ORD-50096,CUST-948,user_742@gmail.com,2026-07-27 02:56:37,PROD-9708,Electronics,-4.0,460.8,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10102,ORD-50038,CUST-302,user_715@yahoo.com,2026-07-28 02:37:18,PROD-3705,Sports,6.0,275.73,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50038)
+TXN-10104,ORD-50104,CUST-672,user_486gmail.com,2026-07-26 17:12:40,PROD-6779,Books,4.0,67.28,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_486gmail.com)
+TXN-10108,ORD-50108,CUST-590,user_642@gmail.com,2026-07-29 18:29:28,PROD-4258,Sports,5.0,0.0,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10111,ORD-50111,CUST-825,user_877@yahoo.com,2026-07-30 11:11:46,PROD-3542,Electronics,6.0,0.0,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10117,ORD-50117,CUST-425,user_795gmail.com,2026-07-26 23:39:19,PROD-9986,Electronics,7.0,388.64,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_795gmail.com)
+TXN-10119,ORD-50119,CUST-537,user_521@yahoo.com,2026-07-30 13:55:55,PROD-3895,Electronics,-5.0,315.28,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (-5.0) must be > 0
+TXN-10124,ORD-50124,CUST-273,user_452gmail.com,2026-07-28 21:28:21,PROD-8540,Books,6.0,286.63,PayPal,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_452gmail.com)
+TXN-10126,ORD-50126,CUST-985,user_788@gmail.com,2026-07-26 19:24:14,PROD-9224,Home & Kitchen,1.0,0.0,UPI,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10129,ORD-50129,CUST-909,user_756@gmail.com,2027-05-01 16:25:04,PROD-2232,Books,7.0,180.33,UPI,Pending,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-05-01 16:25:04)
+TXN-10138,ORD-50138,CUST-119,user_117@gmail.com,2026-07-30 05:16:53,PROD-9391,Home & Kitchen,0.0,123.73,UPI,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10143,ORD-50143,CUST-562,user_246@outlook.com,2026-07-27 09:18:17,PROD-4186,Home & Kitchen,,366.79,UPI,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10147,ORD-50137,CUST-627,user_897@gmail.com,2026-08-01 01:35:59,PROD-3652,Electronics,10.0,68.29,UPI,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50137)
+TXN-10151,ORD-50151,CUST-415,user_953@gmail.com,2027-02-21 16:25:04,PROD-9375,Beauty,4.0,223.76,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-02-21 16:25:04)
+TXN-10158,ORD-50158,CUST-834,user_705gmail.com,2026-07-27 10:27:31,PROD-7977,Sports,8.0,149.94,UPI,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_705gmail.com)
+TXN-10166,ORD-50166,CUST-471,user_293@company.org,2026-07-31 15:27:48,PROD-3683,Apparel,4.0,-149.22,PayPal,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (-149.22) must be > 0
+TXN-10167,ORD-50167,CUST-125,user_368@yahoo.com,2026-07-26 02:40:50,PROD-9176,Electronics,6.0,0.0,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10168,ORD-50168,CUST-189,user_167gmail.com,2026-07-27 19:24:13,PROD-4980,Books,5.0,270.21,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_167gmail.com)
+TXN-10172,ORD-50172,CUST-388,user_779@yahoo.com,2026-07-25 18:11:54,PROD-5861,Home & Kitchen,8.0,,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10174,ORD-50174,CUST-957,user_214@gmail,2026-07-28 03:31:41,PROD-4510,Beauty,10.0,203.92,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_214@gmail)
+TXN-10180,ORD-50180,CUST-709,user_109@yahoo.com,2026-07-27 13:11:03,PROD-7761,Electronics,2.0,-39.01,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (-39.01) must be > 0
+TXN-10184,ORD-50184,,user_544@gmail.com,2026-07-30 10:00:49,PROD-9013,Beauty,10.0,401.36,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10187,ORD-50187,CUST-704,user_691@outlook.com,2026-07-30 07:29:24,PROD-5980,Sports,,193.85,PayPal,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10192,ORD-50192,CUST-834,user_405@outlook.com,2026-07-29 11:19:36,PROD-5805,Books,,186.02,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10193,ORD-50193,CUST-693,user_883@gmail.com,2027-04-04 16:25:04,PROD-4525,Apparel,5.0,86.78,UPI,Completed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-04-04 16:25:04)
+TXN-10194,ORD-50194,CUST-319,user_296@gmail.com,2026-07-26 20:21:51,PROD-8263,Books,2.0,,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10198,ORD-50198,CUST-415,user_588@gmail.com,2026-07-30 02:46:02,PROD-8296,Books,-1.0,393.22,UPI,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (-1.0) must be > 0
+TXN-10209,ORD-50209,CUST-760,user_693@yahoo.com,2026-07-27 02:06:53,PROD-4445,Books,,139.52,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10211,ORD-50211,CUST-707,user_401@company.org,2026-07-29 22:17:16,PROD-6605,Home & Kitchen,5.0,0.0,PayPal,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10216,ORD-50216,CUST-936,user_833@yahoo.com,2026-07-28 10:31:12,PROD-3808,Apparel,-1.0,87.21,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-1.0) must be > 0
+TXN-10218,ORD-50218,CUST-252,user_608gmail.com,2026-07-28 21:40:52,PROD-7964,Books,6.0,449.24,UPI,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_608gmail.com)
+TXN-10219,ORD-50219,CUST-410,user_982@gmail.com,2026-07-26 15:52:21,PROD-7235,Home & Kitchen,6.0,0.0,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10222,ORD-50222,CUST-895,user_307@outlook.com,2027-02-12 16:25:04,PROD-5791,Electronics,7.0,221.75,UPI,Failed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-02-12 16:25:04)
+TXN-10227,ORD-50227,CUST-862,user_577@outlook.com,2026-07-30 10:21:58,PROD-6929,Beauty,8.0,,UPI,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10236,ORD-50236,CUST-147,user_772@gmail,2026-07-28 23:37:32,PROD-5258,Apparel,6.0,497.79,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_772@gmail)
+TXN-10239,ORD-50239,CUST-749,user_533@yahoo.com,2026-07-30 02:02:20,PROD-2700,Sports,,229.53,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10240,ORD-50240,CUST-125,user_509@company.org,2026-07-28 01:53:31,PROD-2598,Beauty,5.0,,UPI,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10241,ORD-50241,CUST-773,user_423@company.org,2026-12-25 16:25:04,PROD-7867,Sports,7.0,142.44,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2026-12-25 16:25:04)
+TXN-10244,ORD-50244,,user_727@company.org,2026-07-27 00:26:06,PROD-3821,Sports,10.0,171.52,UPI,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10254,ORD-50254,,user_818@gmail.com,2026-07-28 11:27:56,PROD-4361,Sports,6.0,405.17,PayPal,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10260,ORD-50260,CUST-515,user_886@yahoo.com,2026-07-31 06:30:03,PROD-3870,Home & Kitchen,3.0,,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10261,ORD-50261,CUST-771,user_340@company.org,2026-07-29 19:33:17,PROD-5063,Apparel,-3.0,279.65,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-3.0) must be > 0
+TXN-10263,ORD-50263,CUST-989,user_550@yahoo.com,2026-08-01 09:05:46,PROD-2453,Home & Kitchen,10.0,0.0,PayPal,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10267,ORD-50267,,user_137@outlook.com,2026-07-31 14:34:44,PROD-8918,Home & Kitchen,10.0,170.6,UPI,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10276,ORD-50276,CUST-823,user_507@gmail,2026-08-01 04:45:28,PROD-6021,Home & Kitchen,5.0,148.79,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_507@gmail)
+TXN-10278,ORD-50278,CUST-881,user_791@gmail.com,2026-07-29 01:06:33,PROD-6335,Apparel,9.0,,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10282,ORD-50282,CUST-835,user_867@company.org,2026-07-29 23:11:01,PROD-9304,Apparel,2.0,-92.69,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (-92.69) must be > 0
+TXN-10283,ORD-50283,,user_400@outlook.com,2026-07-27 12:11:36,PROD-7374,Beauty,1.0,335.42,UPI,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10304,ORD-50304,CUST-140,user_349@yahoo.com,2026-07-31 17:09:09,PROD-9312,Books,0.0,70.07,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10307,ORD-50307,CUST-753,user_280@yahoo.com,2026-07-25 21:58:47,PROD-3770,Sports,,358.25,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10316,ORD-50316,CUST-108,user_645@yahoo.com,2026-07-26 22:59:02,PROD-7663,Home & Kitchen,,418.79,UPI,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10317,ORD-50317,CUST-927,user_740gmail.com,2026-07-30 15:01:00,PROD-5360,Apparel,6.0,52.24,PayPal,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_740gmail.com)
+TXN-10325,ORD-50325,CUST-320,user_848@outlook.com,2026-07-25 22:40:17,PROD-6453,Beauty,0.0,228.76,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10326,ORD-50326,CUST-216,user_602@gmail,2026-07-27 09:20:00,PROD-9556,Sports,5.0,199.87,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_602@gmail)
+TXN-10328,ORD-50328,CUST-258,user_284gmail.com,2026-07-28 23:26:29,PROD-9988,Home & Kitchen,7.0,496.4,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_284gmail.com)
+TXN-10349,ORD-50349,CUST-974,user_852@company.org,2026-07-30 16:27:28,PROD-8654,Books,6.0,0.0,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10350,ORD-50350,CUST-570,user_662gmail.com,2026-07-30 04:44:26,PROD-1065,Sports,6.0,92.58,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_662gmail.com)
+TXN-10351,ORD-50351,CUST-336,user_136@gmail.com,2026-07-29 14:07:27,PROD-6494,Sports,2.0,0.0,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10353,ORD-50353,CUST-539,user_501@gmail.com,2026-07-27 00:09:23,PROD-4584,Electronics,0.0,289.42,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10362,ORD-50362,,user_474@gmail.com,2026-07-31 02:19:20,PROD-6158,Home & Kitchen,10.0,212.33,PayPal,Failed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10363,ORD-50363,CUST-408,user_955@yahoo.com,2026-07-30 04:47:09,PROD-8494,Home & Kitchen,,41.14,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10369,ORD-50369,CUST-445,user_897@gmail.com,2026-07-25 17:56:34,PROD-4738,Sports,-4.0,380.5,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10373,ORD-50373,CUST-264,user_880@outlook.com,2026-07-30 18:52:31,PROD-7147,Apparel,3.0,0.0,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10375,ORD-50375,CUST-846,user_360gmail.com,2026-08-01 01:03:21,PROD-7834,Electronics,5.0,223.65,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_360gmail.com)
+TXN-10381,ORD-50381,CUST-752,user_335gmail.com,2026-07-29 17:37:25,PROD-4206,Home & Kitchen,9.0,450.68,UPI,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_335gmail.com)
+TXN-10386,ORD-50386,CUST-713,user_867@gmail.com,2027-01-16 16:25:04,PROD-1631,Books,7.0,389.1,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-01-16 16:25:04)
+TXN-10389,ORD-50300,CUST-970,user_406@outlook.com,2026-07-27 16:36:01,PROD-7493,Beauty,6.0,20.76,PayPal,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50300)
+TXN-10391,ORD-50391,CUST-837,user_665@gmail.com,2027-01-02 16:25:04,PROD-9437,Books,5.0,310.79,UPI,Failed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-01-02 16:25:04)
+TXN-10406,ORD-50406,CUST-437,user_631@gmail.com,2026-12-26 16:25:04,PROD-1548,Apparel,7.0,337.78,PayPal,Completed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2026-12-26 16:25:04)
+TXN-10410,ORD-50410,CUST-658,user_877@outlook.com,2026-07-27 05:42:24,PROD-6322,Beauty,,138.57,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10411,ORD-50411,CUST-893,user_679@outlook.com,2026-07-31 17:41:24,PROD-2074,Books,5.0,0.0,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10412,ORD-50352,CUST-261,user_542@yahoo.com,2026-07-29 10:20:16,PROD-2230,Beauty,9.0,74.31,PayPal,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50352)
+TXN-10416,ORD-50416,CUST-711,user_335@outlook.com,2026-07-27 08:16:05,PROD-5845,Electronics,0.0,143.26,PayPal,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10431,ORD-50431,CUST-288,user_236@gmail.com,2026-07-27 03:56:27,PROD-2069,Beauty,9.0,0.0,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10433,ORD-50433,CUST-790,user_739@yahoo.com,2026-07-26 04:34:04,PROD-2330,Home & Kitchen,6.0,-36.87,UPI,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (-36.87) must be > 0
+TXN-10443,ORD-50443,CUST-874,user_792@gmail,2026-07-26 10:46:38,PROD-5465,Books,8.0,145.83,UPI,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_792@gmail)
+TXN-10448,ORD-50448,CUST-313,user_628gmail.com,2026-07-27 21:19:39,PROD-2128,Sports,5.0,81.17,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_628gmail.com)
+TXN-10458,ORD-50458,CUST-237,user_693@yahoo.com,2026-08-01 08:43:53,PROD-5493,Books,3.0,,PayPal,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10463,ORD-50463,CUST-313,user_631@company.org,2026-07-30 04:09:15,PROD-2391,Books,10.0,,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10464,ORD-50464,CUST-297,user_561@outlook.com,2026-07-28 02:05:31,PROD-3926,Sports,,43.89,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10468,ORD-50468,CUST-558,user_852@gmail.com,2026-07-30 16:02:48,PROD-2697,Sports,-4.0,159.36,UPI,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10472,ORD-50472,CUST-210,user_455@yahoo.com,2026-07-28 16:13:51,PROD-1131,Books,1.0,0.0,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10474,ORD-50474,CUST-847,user_863@company.org,2026-07-26 23:04:44,PROD-3615,Home & Kitchen,0.0,33.58,PayPal,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10478,ORD-50478,CUST-725,user_746gmail.com,2026-07-30 23:31:35,PROD-4742,Books,8.0,72.84,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_746gmail.com)
+TXN-10481,ORD-50481,CUST-599,user_367@yahoo.com,2026-07-29 22:55:13,PROD-7933,Electronics,5.0,-38.91,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (-38.91) must be > 0
+TXN-10491,ORD-50491,CUST-791,user_907@company.org,2027-01-19 16:25:04,PROD-8219,Beauty,9.0,46.87,UPI,Pending,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-01-19 16:25:04)
+TXN-10502,ORD-50502,CUST-971,user_107@company.org,2026-07-29 20:47:26,PROD-4121,Sports,9.0,,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10503,ORD-50471,CUST-502,user_725@gmail.com,2026-07-26 11:32:40,PROD-3408,Books,5.0,194.13,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50471)
+TXN-10506,ORD-50506,CUST-740,user_678@company.org,2026-07-28 04:31:43,PROD-3047,Electronics,-4.0,123.53,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10508,ORD-50508,CUST-934,user_946@yahoo.com,2026-07-31 20:46:41,PROD-3786,Books,,489.26,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10509,ORD-50509,CUST-606,user_241@outlook.com,2026-07-30 20:03:02,PROD-2797,Home & Kitchen,,234.07,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10510,ORD-50510,CUST-718,user_361@gmail.com,2026-07-31 08:59:59,PROD-6900,Home & Kitchen,,299.58,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10513,ORD-50513,CUST-615,user_754@yahoo.com,2026-07-26 19:18:45,PROD-1473,Apparel,1.0,0.0,UPI,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10516,ORD-50516,CUST-341,user_227@company.org,2026-07-28 16:31:54,PROD-3454,Beauty,0.0,186.82,UPI,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10519,ORD-50519,CUST-302,user_956@outlook.com,2026-07-28 03:38:40,PROD-1175,Home & Kitchen,8.0,,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10522,ORD-50522,CUST-598,user_418@gmail,2026-07-25 15:46:05,PROD-1655,Electronics,2.0,435.94,UPI,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_418@gmail)
+TXN-10526,ORD-50526,CUST-994,user_100@gmail,2026-07-27 03:36:03,PROD-9855,Sports,3.0,100.53,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_100@gmail)
+TXN-10527,ORD-50527,CUST-423,user_290@yahoo.com,2026-07-30 21:33:19,PROD-9346,Sports,0.0,239.02,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10529,ORD-50529,CUST-998,user_260gmail.com,2026-07-28 23:52:16,PROD-8206,Apparel,4.0,482.26,PayPal,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_260gmail.com)
+TXN-10535,ORD-50438,CUST-603,user_622@gmail.com,2026-07-26 22:11:06,PROD-5757,Books,10.0,38.23,UPI,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50438)
+TXN-10538,ORD-50538,,user_106@company.org,2026-07-30 13:35:51,PROD-3238,Books,2.0,253.32,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10540,ORD-50540,CUST-394,user_252@yahoo.com,2026-07-31 02:18:07,PROD-2233,Beauty,2.0,0.0,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10548,ORD-50548,CUST-456,user_214@yahoo.com,2026-08-01 07:33:50,PROD-8800,Beauty,9.0,-46.01,UPI,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (-46.01) must be > 0
+TXN-10549,ORD-50549,CUST-330,user_980@gmail.com,2026-07-29 11:32:34,PROD-1465,Sports,9.0,-143.47,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (-143.47) must be > 0
+TXN-10552,ORD-50552,CUST-189,user_666@gmail,2026-07-30 17:24:55,PROD-8556,Sports,10.0,285.09,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_666@gmail)
+TXN-10553,ORD-50553,CUST-363,user_627gmail.com,2026-07-27 01:53:56,PROD-7140,Home & Kitchen,10.0,495.0,UPI,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_627gmail.com)
+TXN-10556,ORD-50556,CUST-436,user_513@outlook.com,2026-07-27 21:15:45,PROD-4884,Beauty,-5.0,237.27,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-5.0) must be > 0
+TXN-10558,ORD-50558,CUST-955,user_874@company.org,2026-09-11 16:25:04,PROD-9368,Sports,2.0,252.18,PayPal,Failed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2026-09-11 16:25:04)
+TXN-10561,ORD-50561,CUST-389,user_306gmail.com,2026-07-26 12:40:56,PROD-5708,Home & Kitchen,5.0,453.6,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_306gmail.com)
+TXN-10568,ORD-50568,CUST-343,user_151@outlook.com,2026-08-01 03:16:58,PROD-8976,Apparel,,322.97,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10571,ORD-50571,CUST-528,user_111@yahoo.com,2026-07-27 15:16:02,PROD-4752,Electronics,-3.0,349.27,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-3.0) must be > 0
+TXN-10585,ORD-50585,CUST-648,user_437@gmail.com,2026-07-27 03:34:18,PROD-6642,Apparel,8.0,0.0,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10586,ORD-50586,CUST-191,user_741@company.org,2026-07-31 17:37:35,PROD-2924,Beauty,,457.31,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10590,ORD-50590,,user_188@outlook.com,2026-07-30 18:02:37,PROD-8421,Beauty,8.0,486.58,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10594,ORD-50594,CUST-540,user_201@outlook.com,2026-07-31 04:43:19,PROD-8477,Electronics,-4.0,150.07,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10603,ORD-50603,,user_462@gmail.com,2026-07-30 17:36:48,PROD-4138,Home & Kitchen,1.0,466.21,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10611,ORD-50611,CUST-510,user_323@outlook.com,2026-07-26 15:23:47,PROD-8855,Beauty,,85.05,UPI,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10612,ORD-50612,,user_655@yahoo.com,2026-07-31 06:06:56,PROD-9843,Apparel,6.0,410.14,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10613,ORD-50613,CUST-291,user_866@outlook.com,2026-07-28 21:47:05,PROD-8861,Beauty,0.0,212.27,UPI,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10617,ORD-50617,CUST-921,user_459@company.org,2026-07-26 05:59:09,PROD-3590,Apparel,-3.0,89.08,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-3.0) must be > 0
+TXN-10621,ORD-50621,,user_118@gmail.com,2026-07-31 06:54:35,PROD-8588,Electronics,7.0,283.41,PayPal,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10631,ORD-50631,CUST-312,user_934@yahoo.com,2026-07-28 13:51:31,PROD-2950,Beauty,0.0,179.09,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10632,ORD-50632,CUST-240,user_350@outlook.com,2026-07-31 19:00:59,PROD-7824,Beauty,1.0,-32.85,PayPal,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (-32.85) must be > 0
+TXN-10634,ORD-50634,CUST-410,user_356@outlook.com,2026-07-27 16:27:39,PROD-6809,Apparel,0.0,186.57,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10637,ORD-50637,CUST-241,user_566@outlook.com,2026-07-25 21:28:53,PROD-6538,Electronics,10.0,-44.21,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (-44.21) must be > 0
+TXN-10638,ORD-50638,CUST-115,user_984@company.org,2026-07-27 17:52:06,PROD-2849,Books,6.0,0.0,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10642,ORD-50642,CUST-876,user_327@company.org,2026-07-26 06:56:52,PROD-3205,Apparel,,183.51,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10644,ORD-50644,CUST-864,user_760@company.org,2026-07-30 14:16:34,PROD-5614,Books,4.0,0.0,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10652,ORD-50652,CUST-605,user_837@gmail.com,2027-06-05 16:25:04,PROD-6978,Sports,4.0,215.57,UPI,Completed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-06-05 16:25:04)
+TXN-10662,ORD-50662,CUST-470,user_759@outlook.com,2027-07-27 16:25:04,PROD-5161,Books,10.0,54.69,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-07-27 16:25:04)
+TXN-10669,ORD-50669,CUST-357,user_391gmail.com,2026-07-25 13:34:13,PROD-1510,Beauty,6.0,92.18,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_391gmail.com)
+TXN-10678,ORD-50678,CUST-276,user_420@company.org,2026-07-29 14:09:29,PROD-4185,Apparel,-3.0,393.6,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-3.0) must be > 0
+TXN-10679,ORD-50429,CUST-428,user_475@company.org,2026-07-30 04:22:45,PROD-7016,Apparel,2.0,141.39,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50429)
+TXN-10683,ORD-50683,CUST-454,user_539@company.org,2027-04-21 16:25:04,PROD-3713,Sports,8.0,201.08,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-04-21 16:25:04)
+TXN-10692,ORD-50112,CUST-103,user_682@yahoo.com,2026-07-30 19:34:27,PROD-6314,Books,1.0,451.25,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50112)
+TXN-10693,ORD-50693,CUST-227,user_197@outlook.com,2026-08-01 09:34:52,PROD-8791,Beauty,0.0,166.53,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10698,ORD-50144,CUST-557,user_259@gmail.com,2026-07-28 05:05:44,PROD-9961,Apparel,5.0,464.58,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50144)
+TXN-10708,ORD-50708,CUST-515,user_836@yahoo.com,2026-07-31 04:24:28,PROD-9391,Sports,5.0,-31.53,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (-31.53) must be > 0
+TXN-10709,ORD-50709,CUST-648,user_325@yahoo.com,2026-07-29 06:02:29,PROD-8919,Electronics,0.0,481.08,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10712,ORD-50712,CUST-519,user_786gmail.com,2026-07-28 16:15:16,PROD-6175,Home & Kitchen,2.0,88.99,PayPal,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_786gmail.com)
+TXN-10713,ORD-50713,CUST-976,user_800gmail.com,2026-07-25 16:18:22,PROD-1405,Home & Kitchen,7.0,155.59,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_800gmail.com)
+TXN-10716,ORD-50716,CUST-498,user_827@yahoo.com,2026-07-31 03:57:19,PROD-7417,Apparel,5.0,-135.74,UPI,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price (-135.74) must be > 0
+TXN-10723,ORD-50723,CUST-388,user_960gmail.com,2026-07-26 09:58:24,PROD-5211,Apparel,1.0,175.22,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_960gmail.com)
+TXN-10728,ORD-50728,CUST-224,user_976@gmail.com,2026-07-29 00:02:36,PROD-6595,Home & Kitchen,,392.56,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10736,ORD-50736,,user_236@company.org,2026-07-27 06:50:12,PROD-2986,Electronics,7.0,232.4,UPI,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10744,ORD-50744,CUST-535,user_893@company.org,2026-07-31 02:35:27,PROD-6947,Electronics,-2.0,282.72,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-2.0) must be > 0
+TXN-10751,ORD-50751,CUST-170,user_805@outlook.com,2026-07-29 09:45:59,PROD-5560,Apparel,1.0,-36.72,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (-36.72) must be > 0
+TXN-10762,ORD-50762,CUST-306,user_859@gmail.com,2026-07-25 14:39:57,PROD-6002,Beauty,5.0,,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10778,ORD-50627,CUST-826,user_503@outlook.com,2026-07-28 22:24:59,PROD-5657,Home & Kitchen,10.0,47.98,UPI,Completed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50627)
+TXN-10787,ORD-50787,CUST-338,user_125@gmail.com,2026-07-29 23:14:42,PROD-2819,Home & Kitchen,-2.0,270.77,UPI,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (-2.0) must be > 0
+TXN-10791,ORD-50791,,user_778@gmail.com,2026-07-27 07:59:15,PROD-8245,Apparel,9.0,435.17,Credit Card,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10795,ORD-50277,CUST-941,user_629@company.org,2026-07-27 05:58:46,PROD-6956,Home & Kitchen,1.0,114.9,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50277)
+TXN-10797,ORD-50797,CUST-351,user_491gmail.com,2026-07-29 11:12:49,PROD-3224,Apparel,6.0,22.5,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_491gmail.com)
+TXN-10801,ORD-50801,CUST-592,user_893@gmail.com,2026-07-25 17:57:09,PROD-8525,Sports,4.0,,PayPal,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10808,ORD-50808,CUST-140,user_343@outlook.com,2026-07-28 22:31:01,PROD-8592,Books,0.0,422.39,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10813,ORD-50813,CUST-110,user_894gmail.com,2026-07-30 13:49:40,PROD-2557,Beauty,6.0,34.93,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_894gmail.com)
+TXN-10815,ORD-50815,,user_130@yahoo.com,2026-07-30 16:43:45,PROD-4324,Sports,10.0,396.92,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10823,ORD-50726,CUST-837,user_721@gmail.com,2026-07-29 06:35:27,PROD-8437,Books,9.0,264.02,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50726)
+TXN-10827,ORD-50827,CUST-690,user_749@gmail,2026-07-28 01:48:55,PROD-9579,Books,5.0,407.51,PayPal,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_749@gmail)
+TXN-10832,ORD-50832,CUST-331,user_141@gmail.com,2026-07-28 17:54:20,PROD-7716,Sports,0.0,16.06,PayPal,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10834,ORD-50599,CUST-698,user_198@yahoo.com,2026-07-26 07:06:13,PROD-7565,Sports,1.0,261.64,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50599)
+TXN-10835,ORD-50835,CUST-283,user_210@company.org,2026-07-27 08:54:58,PROD-4208,Home & Kitchen,6.0,0.0,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10837,ORD-50837,CUST-821,user_132@yahoo.com,2026-07-29 07:29:22,PROD-2134,Books,,31.57,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10842,ORD-50842,CUST-504,user_309@outlook.com,2026-07-25 10:19:36,PROD-3590,Books,0.0,252.14,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10844,ORD-50844,CUST-377,user_476@company.org,2026-07-27 16:25:13,PROD-4147,Apparel,5.0,0.0,UPI,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (0.0) must be > 0
+TXN-10847,ORD-50847,,user_344@outlook.com,2026-07-30 08:04:07,PROD-3649,Apparel,6.0,236.8,PayPal,Failed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10849,ORD-50849,CUST-440,user_498@yahoo.com,2026-07-25 20:38:10,PROD-3111,Beauty,2.0,,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10850,ORD-50850,CUST-328,user_580@outlook.com,2026-07-29 23:14:20,PROD-8712,Home & Kitchen,9.0,-83.46,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price (-83.46) must be > 0
+TXN-10859,ORD-50859,CUST-466,user_256@yahoo.com,2026-07-29 23:06:23,PROD-3403,Sports,,327.38,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10867,ORD-50867,CUST-394,user_489@gmail,2026-07-26 15:24:26,PROD-4542,Electronics,8.0,487.6,PayPal,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_489@gmail)
+TXN-10871,ORD-50046,CUST-175,user_322@outlook.com,2026-07-30 01:38:04,PROD-9238,Electronics,5.0,467.5,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50046)
+TXN-10874,ORD-50874,CUST-413,user_754@company.org,2026-07-26 17:27:16,PROD-1662,Sports,0.0,195.87,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10880,ORD-50880,CUST-819,user_813@gmail.com,2026-07-26 01:43:45,PROD-6575,Sports,-4.0,171.85,UPI,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-4.0) must be > 0
+TXN-10881,ORD-50881,CUST-567,user_774@outlook.com,2027-05-12 16:25:04,PROD-3176,Beauty,4.0,229.44,UPI,Pending,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-05-12 16:25:04)
+TXN-10889,ORD-50889,,user_541@gmail.com,2026-07-28 10:05:32,PROD-6536,Beauty,9.0,427.13,UPI,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10893,ORD-50893,,user_740@company.org,2026-07-26 20:05:00,PROD-5580,Sports,4.0,281.12,Debit Card,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10899,ORD-50899,CUST-953,user_152gmail.com,2026-07-28 12:11:13,PROD-7791,Electronics,10.0,405.86,PayPal,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_152gmail.com)
+TXN-10901,ORD-50901,CUST-431,user_755gmail.com,2026-07-28 11:09:04,PROD-3755,Electronics,7.0,203.64,PayPal,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_755gmail.com)
+TXN-10905,ORD-50905,CUST-405,user_637@gmail,2026-07-31 01:07:57,PROD-1953,Electronics,5.0,442.9,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_637@gmail)
+TXN-10908,ORD-50908,CUST-668,user_261@gmail.com,2026-07-26 19:37:49,PROD-1875,Beauty,1.0,,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10911,ORD-50911,CUST-801,user_120@company.org,2026-07-27 00:06:10,PROD-1912,Books,-3.0,19.44,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity (-3.0) must be > 0
+TXN-10916,ORD-50916,CUST-882,user_724@company.org,2026-07-28 16:28:14,PROD-6055,Home & Kitchen,5.0,,PayPal,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10917,ORD-50917,CUST-873,user_864@outlook.com,2026-07-31 18:49:48,PROD-6685,Books,4.0,-54.83,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_03: unit_price (-54.83) must be > 0
+TXN-10922,ORD-50922,,user_617@yahoo.com,2026-07-31 12:33:11,PROD-1461,Home & Kitchen,9.0,142.17,PayPal,Completed,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10925,ORD-50925,CUST-862,user_646@outlook.com,2027-04-15 16:25:04,PROD-7238,Books,5.0,104.07,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_05: Future timestamp detected (2027-04-15 16:25:04)
+TXN-10926,ORD-50926,CUST-705,user_255@gmail,2026-07-29 19:42:26,PROD-7576,Apparel,10.0,169.23,PayPal,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_255@gmail)
+TXN-10927,ORD-50927,CUST-574,user_541@company.org,2026-07-30 04:32:59,PROD-3070,Beauty,,385.54,PayPal,Completed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10937,ORD-50937,CUST-515,user_113@gmail,2026-07-26 20:11:39,PROD-8597,Home & Kitchen,4.0,81.51,PayPal,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_113@gmail)
+TXN-10939,ORD-50939,CUST-494,user_590@gmail.com,2026-07-28 11:16:06,PROD-1617,Apparel,1.0,,UPI,Completed,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10952,ORD-50952,CUST-687,user_971@outlook.com,2026-07-28 23:08:34,PROD-2945,Home & Kitchen,7.0,,Credit Card,Pending,RUN-20260809-162605,DQ_RULE_03: unit_price is NULL/NaN
+TXN-10955,ORD-50178,CUST-132,user_381@gmail.com,2026-07-28 03:07:44,PROD-6170,Apparel,10.0,439.19,PayPal,Failed,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50178)
+TXN-10962,ORD-50962,CUST-651,user_797gmail.com,2026-07-30 10:33:06,PROD-6664,Sports,2.0,309.9,PayPal,Completed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_797gmail.com)
+TXN-10970,ORD-50970,CUST-514,user_233@yahoo.com,2026-07-29 10:03:38,PROD-5125,Beauty,0.0,287.84,UPI,Pending,RUN-20260809-162605,DQ_RULE_04: quantity (0.0) must be > 0
+TXN-10971,ORD-50971,CUST-841,user_193gmail.com,2026-07-31 01:02:28,PROD-9524,Home & Kitchen,7.0,409.54,Debit Card,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_193gmail.com)
+TXN-10972,ORD-50972,CUST-923,user_745@gmail,2026-07-31 11:04:35,PROD-7893,Electronics,4.0,424.97,Credit Card,Failed,RUN-20260809-162605,DQ_RULE_02: Invalid customer_email format (user_745@gmail)
+TXN-10980,ORD-50980,CUST-514,user_629@gmail.com,2026-07-30 07:18:35,PROD-5781,Electronics,,298.1,PayPal,Failed,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-10981,ORD-50981,,user_910@gmail.com,2026-07-29 21:46:01,PROD-9630,Sports,1.0,239.52,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_01: customer_id is NULL or blank
+TXN-10996,ORD-50996,CUST-220,user_406@outlook.com,2026-07-31 08:41:26,PROD-2527,Books,,190.13,Debit Card,Pending,RUN-20260809-162605,DQ_RULE_04: quantity is NULL/NaN
+TXN-11000,ORD-50734,CUST-684,user_146@yahoo.com,2026-07-31 17:37:06,PROD-8466,Books,1.0,479.75,UPI,Pending,RUN-20260809-162605,DQ_RULE_06: Duplicate order_id detected (ORD-50734)

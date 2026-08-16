@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Text Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database & Log Output Files (keep sample binaries if small, ignore temp dynamic locks)
+*.sqlite3-journal
+*.sqlite3-wal
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables & secrets
+.env

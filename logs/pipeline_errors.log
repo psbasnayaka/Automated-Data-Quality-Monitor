@@ -1,0 +1,237 @@
+[2026-08-09 16:26:05] [INFO] Starting Data Quality Pipeline execution [Run ID: RUN-20260809-162605]
+[2026-08-09 16:26:05] [INFO] Target Input File: D:\industry projects\0.1  -  Automated Data Quality & Pipeline Monitor\data\raw_transactions.csv
+[2026-08-09 16:26:05] [INFO] Structural pre-validation passed. All 11 required headers are present.
+[2026-08-09 16:26:05] [INFO] Ingesting dataset in chunks of size 250...
+[2026-08-09 16:26:05] [INFO] Processing Chunk #1 (250 rows)...
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10002 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10006 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10013 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10016 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10023 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10024 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_519gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10026 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-1.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10031 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10037 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10044 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-1.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10052 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10056 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-45.33) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10061 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50028)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10067 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10068 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10072 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10076 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10077 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10080 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-2.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10086 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50054)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10088 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-2.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10089 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10095 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_901@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10096 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10102 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50038)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10104 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_486gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10108 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10111 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10117 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_795gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10119 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-5.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10124 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_452gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10126 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10129 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-05-01 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10138 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10143 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10147 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50137)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10151 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-02-21 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10158 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_705gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10166 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-149.22) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10167 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10168 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_167gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10172 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10174 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_214@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10180 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-39.01) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10184 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10187 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10192 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10193 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-04-04 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10194 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10198 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-1.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10209 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10211 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10216 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-1.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10218 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_608gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10219 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10222 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-02-12 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10227 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10236 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_772@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10239 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10240 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10241 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2026-12-25 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10244 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [INFO] Processing Chunk #2 (250 rows)...
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10254 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10260 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10261 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-3.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10263 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10267 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10276 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_507@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10278 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10282 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-92.69) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10283 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10304 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10307 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10316 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10317 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_740gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10325 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10326 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_602@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10328 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_284gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10349 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10350 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_662gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10351 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10353 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10362 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10363 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10369 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10373 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10375 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_360gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10381 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_335gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10386 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-01-16 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10389 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50300)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10391 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-01-02 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10406 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2026-12-26 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10410 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10411 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10412 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50352)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10416 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10431 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10433 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-36.87) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10443 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_792@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10448 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_628gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10458 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10463 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10464 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10468 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10472 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10474 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10478 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_746gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10481 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-38.91) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10491 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-01-19 16:25:04)
+[2026-08-09 16:26:05] [INFO] Processing Chunk #3 (250 rows)...
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10502 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10503 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50471)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10506 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10508 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10509 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10510 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10513 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10516 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10519 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10522 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_418@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10526 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_100@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10527 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10529 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_260gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10535 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50438)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10538 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10540 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10548 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-46.01) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10549 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-143.47) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10552 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_666@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10553 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_627gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10556 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-5.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10558 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2026-09-11 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10561 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_306gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10568 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10571 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-3.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10585 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10586 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10590 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10594 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10603 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10611 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10612 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10613 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10617 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-3.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10621 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10631 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10632 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-32.85) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10634 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10637 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-44.21) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10638 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10642 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10644 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10652 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-06-05 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10662 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-07-27 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10669 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_391gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10678 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-3.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10679 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50429)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10683 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-04-21 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10692 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50112)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10693 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10698 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50144)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10708 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-31.53) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10709 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10712 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_786gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10713 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_800gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10716 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-135.74) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10723 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_960gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10728 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10736 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10744 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-2.0) must be > 0
+[2026-08-09 16:26:05] [INFO] Processing Chunk #4 (250 rows)...
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10751 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-36.72) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10762 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10778 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50627)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10787 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-2.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10791 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10795 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50277)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10797 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_491gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10801 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10808 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10813 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_894gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10815 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10823 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50726)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10827 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_749@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10832 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10834 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50599)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10835 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10837 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10842 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10844 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10847 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10849 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10850 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-83.46) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10859 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10867 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_489@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10871 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50046)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10874 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10880 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-4.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10881 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-05-12 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10889 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10893 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10899 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_152gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10901 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_755gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10905 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_637@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10908 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10911 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (-3.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10916 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10917 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price (-54.83) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10922 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10925 [Run: RUN-20260809-162605] failed: DQ_RULE_05: Future timestamp detected (2027-04-15 16:25:04)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10926 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_255@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10927 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10937 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_113@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10939 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10952 [Run: RUN-20260809-162605] failed: DQ_RULE_03: unit_price is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10955 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50178)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10962 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_797gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10970 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity (0.0) must be > 0
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10971 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_193gmail.com)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10972 [Run: RUN-20260809-162605] failed: DQ_RULE_02: Invalid customer_email format (user_745@gmail)
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10980 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10981 [Run: RUN-20260809-162605] failed: DQ_RULE_01: customer_id is NULL or blank
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-10996 [Run: RUN-20260809-162605] failed: DQ_RULE_04: quantity is NULL/NaN
+[2026-08-09 16:26:05] [WARNING] [QUARANTINE] Record TXN-11000 [Run: RUN-20260809-162605] failed: DQ_RULE_06: Duplicate order_id detected (ORD-50734)
+[2026-08-09 16:26:05] [INFO] Successfully loaded 778 clean records into SQLite 'clean_transactions'.
+[2026-08-09 16:26:05] [INFO] Appended 222 quarantined records to CSV: D:\industry projects\0.1  -  Automated Data Quality & Pipeline Monitor\data\quarantine_transactions.csv
+[2026-08-09 16:26:05] [INFO] Successfully loaded 222 quarantined records into SQLite 'quarantined_transactions'.
+[2026-08-09 16:26:05] [INFO] =================================================================
+[2026-08-09 16:26:05] [INFO] PIPELINE SUMMARY [Run ID: RUN-20260809-162605]
+[2026-08-09 16:26:05] [INFO] Total Processed: 1000 | Valid: 778 | Quarantined: 222 | Pass Rate: 77.8%
+[2026-08-09 16:26:05] [INFO] =================================================================
