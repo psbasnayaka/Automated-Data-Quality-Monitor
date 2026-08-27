@@ -29,3 +29,6 @@ desktop.ini
 
 # Environment variables & secrets
 .env
+
+# Exclude LinkedIn screenshots
+linkedin_images/
